@@ -5,7 +5,7 @@ The Amazon Connect Bulk Security Profile Updater uses the AWS CLI and takes in a
 
 ### Usage
 
-```python connect_security_profile_updater.py --instance-id 12345678-1234-1234-1234-123456789012 --csv-file users.csv```
+```python3 connect_security_profile_updater.py --instance-id 12345678-1234-1234-1234-123456789012 --csv-file users.csv```
 
 The script can easily be updated to take an AWS CLI profile or it can be run from CloudShell. I've tested the script with 7000 users without issue.
 
