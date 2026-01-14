@@ -16,7 +16,6 @@ import os
 import json
 from datetime import datetime
 
-
 def setup_logging():
     """Setup logging configuration with timestamped log file."""
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
